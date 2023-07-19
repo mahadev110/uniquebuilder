@@ -23,34 +23,32 @@ include_once('include/navbar.php')
         </div>
         <div class="row gx-0 align-items-center">
             <div class="col-xl-4 col-lg-5 d-none d-lg-block">
-                <img class="" src="img/design/Exterior/about.jpg" width="120%" height="400px">
+                <img class="" src="img/design/team-1.jpeg" width="80%" height="300px">
             </div>
             <div class="col-xl-8 col-lg-7 col-md-12">
                 <div class="testimonial bg-light">
                     <div class="owl-carousel testimonial-carousel">
                         <div class="row gx-4 align-items-center">
                             <div class="col-xl-4 col-lg-5 col-md-5">
-                                <img class="img-fluid w-100 h-100 bg-light p-lg-3 mb-4 mb-md-0" src="" alt="">
+                                <img class="img-fluid w-100 h-100 bg-light p-lg-3 mb-4 mb-md-0" src="img/design/Exterior/slider4.jpeg" alt="">
                             </div>
                             <div class="col-xl-8 col-lg-7 col-md-7">
-                                <h4 class="text-uppercase mb-0">Site Name</h4>
-                                <p>Address</p>
+                                <h4 class="text-uppercase mb-0">JK illam</h4>
+                                <p>Krishna Nagar, Puducherry</p>
                                 <p class="fs-5 mb-0"><i class="fa fa-2x fa-quote-left text-primary me-2"></i>
+                          Completed
                             </p>
                             </div>
                         </div>
                         <div class="row gx-4 align-items-center">
                             <div class="col-xl-4 col-lg-5 col-md-5">
-                                <img class="img-fluid w-100 h-100 bg-light p-lg-3 mb-4 mb-md-0" src="" alt="">
+                                <img class="img-fluid w-100 h-100 bg-light p-lg-3 mb-4 mb-md-0" src="img/design/Exterior/slider2.jpg" alt="">
                             </div>
                             <div class="col-xl-8 col-lg-7 col-md-7">
-                                <h4 class="text-uppercase mb-0">Site Name</h4>
-                                <p>Address</p>
+                                <h4 class="text-uppercase mb-0">Rose Apartment</h4>
+                                <p>Saram Puducherry</p>
                                 <p class="fs-5 mb-0"><i class="fa fa-2x fa-quote-left text-primary me-2"></i> 
-                                <!-- Dolores sed duo
-                                    clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem
-                                    lorem magna ut labore et tempor diam tempor erat. Erat dolor rebum sit
-                                    ipsum. -->
+                               Under Process
                                 </p>
                             </div>
                         </div>
