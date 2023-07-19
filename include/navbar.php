@@ -52,10 +52,10 @@
                 service.html
                 service.html
                 contact.html -->
-                    <a href="index.php" class="nav-item nav-link active">Home</a>
-                    <a href="about.php" class="nav-item nav-link">About</a>
-                    <a href="service.php" class="nav-item nav-link">Service</a>
-                       <a href="gallery.php" class="nav-item nav-link">Gallery</a>
+                    <a href="index.php" class="nav-item nav-link <?php echo ($_SERVER['PHP_SELF'] == "/index.php" ? "active" : ""); ?>">Home</a>
+                    <a href="about.php" class="nav-item nav-link <?php echo ($_SERVER['PHP_SELF'] == "/about.php" ? "active" : ""); ?>">About</a>
+                    <a href="service.php" class="nav-item nav-link <?php echo ($_SERVER['PHP_SELF'] == "/service.php" ? "active" : ""); ?>">Service</a>
+                       <a href="gallery.php" class="nav-item nav-link <?php echo ($_SERVER['PHP_SELF'] == "/gallery.php" ? "active" : ""); ?>">Gallery</a>
                     <!-- <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu m-0">
@@ -67,7 +67,7 @@
                         </div>
                     </div> -->
                     <!-- <a href="contact.html" class="nav-item nav-link">Contact</a> -->
-                    <a href="contact.php" class="nav-item nav-link bg-primary text-white px-5 ms-3 d-none d-lg-block">Contact Us <i class="bi bi-arrow-right"></i></a>
+                    <a href="contact.php" class="nav-item nav-link bg-primary text-white px-5 ms-3 d-none d-lg-block <?php echo ($_SERVER['PHP_SELF'] == "/contact.php" ? "active" : ""); ?>">Contact Us <i class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
         </nav>
